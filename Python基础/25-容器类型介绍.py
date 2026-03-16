@@ -17,3 +17,36 @@
             方式一：一对引号，单双引号均可
             方式二：三引号，可以保留字符串的格式
 """
+# 1. 通过一对引号
+name1 = 'abc'
+name2 = "abc"
+
+
+# 2. 通过三引号方式
+name3 = '''
+Hello World
+!
+'''
+print(name3)
+print('-' * 50)
+
+name4 = """
+select *
+from
+    table
+"""
+print(name4)
+print('-' * 50)
+
+# 3. 字符串特殊格式，定义字符串变量
+name5 = 'I\'m Tom'
+print(name5)
+
+name6 = "I'm Tom"
+print(name6)
+
+# 4. 字符串遍历
+
+name7 = 'I\'m Tom'
+for i in name7:
+    print(i, end=' ')
